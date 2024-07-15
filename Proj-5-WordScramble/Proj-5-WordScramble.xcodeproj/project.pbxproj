@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA52E8072C45C63500C50BEE /* Proj_5_WordScrambleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52E8062C45C63500C50BEE /* Proj_5_WordScrambleApp.swift */; };
+		DA52E8092C45C63500C50BEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52E8082C45C63500C50BEE /* ContentView.swift */; };
+		DA52E80B2C45C63500C50BEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA52E80A2C45C63500C50BEE /* Assets.xcassets */; };
+		DA52E80E2C45C63500C50BEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA52E80D2C45C63500C50BEE /* Preview Assets.xcassets */; };
+		DA52E8182C45C63500C50BEE /* Proj_5_WordScrambleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52E8172C45C63500C50BEE /* Proj_5_WordScrambleTests.swift */; };
+		DA52E8222C45C63500C50BEE /* Proj_5_WordScrambleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52E8212C45C63500C50BEE /* Proj_5_WordScrambleUITests.swift */; };
+		DA52E8242C45C63500C50BEE /* Proj_5_WordScrambleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA52E8232C45C63500C50BEE /* Proj_5_WordScrambleUITestsLaunchTests.swift */; };
+		DA52E8312C45CFBF00C50BEE /* start.txt in Resources */ = {isa = PBXBuildFile; fileRef = DA52E8302C45CFBF00C50BEE /* start.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA52E8142C45C63500C50BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA52E7FB2C45C63400C50BEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA52E8022C45C63400C50BEE;
+			remoteInfo = "Proj-5-WordScramble";
+		};
+		DA52E81E2C45C63500C50BEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA52E7FB2C45C63400C50BEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA52E8022C45C63400C50BEE;
+			remoteInfo = "Proj-5-WordScramble";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA52E8032C45C63500C50BEE /* Proj-5-WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Proj-5-WordScramble.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA52E8062C45C63500C50BEE /* Proj_5_WordScrambleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proj_5_WordScrambleApp.swift; sourceTree = "<group>"; };
+		DA52E8082C45C63500C50BEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DA52E80A2C45C63500C50BEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA52E80D2C45C63500C50BEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA52E8132C45C63500C50BEE /* Proj-5-WordScrambleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proj-5-WordScrambleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA52E8172C45C63500C50BEE /* Proj_5_WordScrambleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proj_5_WordScrambleTests.swift; sourceTree = "<group>"; };
+		DA52E81D2C45C63500C50BEE /* Proj-5-WordScrambleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proj-5-WordScrambleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA52E8212C45C63500C50BEE /* Proj_5_WordScrambleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proj_5_WordScrambleUITests.swift; sourceTree = "<group>"; };
+		DA52E8232C45C63500C50BEE /* Proj_5_WordScrambleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proj_5_WordScrambleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DA52E8302C45CFBF00C50BEE /* start.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = start.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA52E8002C45C63400C50BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA52E8102C45C63500C50BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA52E81A2C45C63500C50BEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA52E7FA2C45C63400C50BEE = {
+			isa = PBXGroup;
+			children = (
+				DA52E8052C45C63500C50BEE /* Proj-5-WordScramble */,
+				DA52E8162C45C63500C50BEE /* Proj-5-WordScrambleTests */,
+				DA52E8202C45C63500C50BEE /* Proj-5-WordScrambleUITests */,
+				DA52E8042C45C63500C50BEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA52E8042C45C63500C50BEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA52E8032C45C63500C50BEE /* Proj-5-WordScramble.app */,
+				DA52E8132C45C63500C50BEE /* Proj-5-WordScrambleTests.xctest */,
+				DA52E81D2C45C63500C50BEE /* Proj-5-WordScrambleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA52E8052C45C63500C50BEE /* Proj-5-WordScramble */ = {
+			isa = PBXGroup;
+			children = (
+				DA52E8302C45CFBF00C50BEE /* start.txt */,
+				DA52E8062C45C63500C50BEE /* Proj_5_WordScrambleApp.swift */,
+				DA52E8082C45C63500C50BEE /* ContentView.swift */,
+				DA52E80A2C45C63500C50BEE /* Assets.xcassets */,
+				DA52E80C2C45C63500C50BEE /* Preview Content */,
+			);
+			path = "Proj-5-WordScramble";
+			sourceTree = "<group>";
+		};
+		DA52E80C2C45C63500C50BEE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DA52E80D2C45C63500C50BEE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DA52E8162C45C63500C50BEE /* Proj-5-WordScrambleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA52E8172C45C63500C50BEE /* Proj_5_WordScrambleTests.swift */,
+			);
+			path = "Proj-5-WordScrambleTests";
+			sourceTree = "<group>";
+		};
+		DA52E8202C45C63500C50BEE /* Proj-5-WordScrambleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA52E8212C45C63500C50BEE /* Proj_5_WordScrambleUITests.swift */,
+				DA52E8232C45C63500C50BEE /* Proj_5_WordScrambleUITestsLaunchTests.swift */,
+			);
+			path = "Proj-5-WordScrambleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA52E8022C45C63400C50BEE /* Proj-5-WordScramble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA52E8272C45C63500C50BEE /* Build configuration list for PBXNativeTarget "Proj-5-WordScramble" */;
+			buildPhases = (
+				DA52E7FF2C45C63400C50BEE /* Sources */,
+				DA52E8002C45C63400C50BEE /* Frameworks */,
+				DA52E8012C45C63400C50BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Proj-5-WordScramble";
+			productName = "Proj-5-WordScramble";
+			productReference = DA52E8032C45C63500C50BEE /* Proj-5-WordScramble.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA52E8122C45C63500C50BEE /* Proj-5-WordScrambleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA52E82A2C45C63500C50BEE /* Build configuration list for PBXNativeTarget "Proj-5-WordScrambleTests" */;
+			buildPhases = (
+				DA52E80F2C45C63500C50BEE /* Sources */,
+				DA52E8102C45C63500C50BEE /* Frameworks */,
+				DA52E8112C45C63500C50BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA52E8152C45C63500C50BEE /* PBXTargetDependency */,
+			);
+			name = "Proj-5-WordScrambleTests";
+			productName = "Proj-5-WordScrambleTests";
+			productReference = DA52E8132C45C63500C50BEE /* Proj-5-WordScrambleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA52E81C2C45C63500C50BEE /* Proj-5-WordScrambleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA52E82D2C45C63500C50BEE /* Build configuration list for PBXNativeTarget "Proj-5-WordScrambleUITests" */;
+			buildPhases = (
+				DA52E8192C45C63500C50BEE /* Sources */,
+				DA52E81A2C45C63500C50BEE /* Frameworks */,
+				DA52E81B2C45C63500C50BEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA52E81F2C45C63500C50BEE /* PBXTargetDependency */,
+			);
+			name = "Proj-5-WordScrambleUITests";
+			productName = "Proj-5-WordScrambleUITests";
+			productReference = DA52E81D2C45C63500C50BEE /* Proj-5-WordScrambleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA52E7FB2C45C63400C50BEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					DA52E8022C45C63400C50BEE = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					DA52E8122C45C63500C50BEE = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DA52E8022C45C63400C50BEE;
+					};
+					DA52E81C2C45C63500C50BEE = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = DA52E8022C45C63400C50BEE;
+					};
+				};
+			};
+			buildConfigurationList = DA52E7FE2C45C63400C50BEE /* Build configuration list for PBXProject "Proj-5-WordScramble" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA52E7FA2C45C63400C50BEE;
+			productRefGroup = DA52E8042C45C63500C50BEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA52E8022C45C63400C50BEE /* Proj-5-WordScramble */,
+				DA52E8122C45C63500C50BEE /* Proj-5-WordScrambleTests */,
+				DA52E81C2C45C63500C50BEE /* Proj-5-WordScrambleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA52E8012C45C63400C50BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA52E80E2C45C63500C50BEE /* Preview Assets.xcassets in Resources */,
+				DA52E8312C45CFBF00C50BEE /* start.txt in Resources */,
+				DA52E80B2C45C63500C50BEE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA52E8112C45C63500C50BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA52E81B2C45C63500C50BEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA52E7FF2C45C63400C50BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA52E8092C45C63500C50BEE /* ContentView.swift in Sources */,
+				DA52E8072C45C63500C50BEE /* Proj_5_WordScrambleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA52E80F2C45C63500C50BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA52E8182C45C63500C50BEE /* Proj_5_WordScrambleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA52E8192C45C63500C50BEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA52E8242C45C63500C50BEE /* Proj_5_WordScrambleUITestsLaunchTests.swift in Sources */,
+				DA52E8222C45C63500C50BEE /* Proj_5_WordScrambleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA52E8152C45C63500C50BEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA52E8022C45C63400C50BEE /* Proj-5-WordScramble */;
+			targetProxy = DA52E8142C45C63500C50BEE /* PBXContainerItemProxy */;
+		};
+		DA52E81F2C45C63500C50BEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA52E8022C45C63400C50BEE /* Proj-5-WordScramble */;
+			targetProxy = DA52E81E2C45C63500C50BEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA52E8252C45C63500C50BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA52E8262C45C63500C50BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA52E8282C45C63500C50BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Proj-5-WordScramble/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RRQE7NZHX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singhpalwinder-links.Proj-5-WordScramble";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA52E8292C45C63500C50BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Proj-5-WordScramble/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RRQE7NZHX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singhpalwinder-links.Proj-5-WordScramble";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA52E82B2C45C63500C50BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4RRQE7NZHX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singhpalwinder-links.Proj-5-WordScrambleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proj-5-WordScramble.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Proj-5-WordScramble";
+			};
+			name = Debug;
+		};
+		DA52E82C2C45C63500C50BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4RRQE7NZHX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singhpalwinder-links.Proj-5-WordScrambleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Proj-5-WordScramble.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Proj-5-WordScramble";
+			};
+			name = Release;
+		};
+		DA52E82E2C45C63500C50BEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4RRQE7NZHX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singhpalwinder-links.Proj-5-WordScrambleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Proj-5-WordScramble";
+			};
+			name = Debug;
+		};
+		DA52E82F2C45C63500C50BEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4RRQE7NZHX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.singhpalwinder-links.Proj-5-WordScrambleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Proj-5-WordScramble";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA52E7FE2C45C63400C50BEE /* Build configuration list for PBXProject "Proj-5-WordScramble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA52E8252C45C63500C50BEE /* Debug */,
+				DA52E8262C45C63500C50BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA52E8272C45C63500C50BEE /* Build configuration list for PBXNativeTarget "Proj-5-WordScramble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA52E8282C45C63500C50BEE /* Debug */,
+				DA52E8292C45C63500C50BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA52E82A2C45C63500C50BEE /* Build configuration list for PBXNativeTarget "Proj-5-WordScrambleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA52E82B2C45C63500C50BEE /* Debug */,
+				DA52E82C2C45C63500C50BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA52E82D2C45C63500C50BEE /* Build configuration list for PBXNativeTarget "Proj-5-WordScrambleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA52E82E2C45C63500C50BEE /* Debug */,
+				DA52E82F2C45C63500C50BEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA52E7FB2C45C63400C50BEE /* Project object */;
+}
